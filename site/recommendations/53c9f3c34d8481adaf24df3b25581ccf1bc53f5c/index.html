@@ -482,7 +482,7 @@
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2024-07-22 13:12:43 UTC</i>
+  <i class="footer">This page was last updated on 2024-07-29 06:39:13 UTC</i>
   </p>
 
   <div class="note info" onclick="startIntro()">
@@ -558,7 +558,7 @@
           </td>
           <td>2024-01-08</td>
           <td>J. Comput. Inf. Sci. Eng.</td>
-          <td>22</td>
+          <td>23</td>
           <td>24</td>
         </tr>
 
@@ -598,6 +598,18 @@
           <td>29</td>
         </tr>
 
+        <tr id="Operator learning has become a powerful tool in machine learning for modeling complex physical systems. Although Deep Operator Networks (DeepONet) show promise, they require extensive data acquisition. Physics-informed DeepONets (PI-DeepONet) mitigate data scarcity but suffer from inefficient training processes. We introduce Separable Operator Networks (SepONet), a novel framework that significantly enhances the efficiency of physics-informed operator learning. SepONet uses independent trunk networks to learn basis functions separately for different coordinate axes, enabling faster and more memory-efficient training via forward-mode automatic differentiation. We provide theoretical guarantees for SepONet using the universal approximation theorem and validate its performance through comprehensive benchmarking against PI-DeepONet. Our results demonstrate that for the 1D time-dependent advection equation, when targeting a mean relative $\ell_{2}$ error of less than 6% on 100 unseen variable coefficients, SepONet provides up to $112 \times$ training speed-up and $82 \times$ GPU memory usage reduction compared to PI-DeepONet. Similar computational advantages are observed across various partial differential equations, with SepONet's efficiency gains scaling favorably as problem complexity increases. This work paves the way for extreme-scale learning of continuous mappings between infinite-dimensional function spaces.">
+          <td id="tag"><i class="material-icons">visibility_off</i></td>
+          <td><a href="https://www.semanticscholar.org/paper/df7ccff15abfd241fc963ea0b34062bc42a014fb" target='_blank'>Separable Operator Networks</a></td>
+          <td>
+            Xinling Yu, S. Hooten, Z. Liu, Yequan Zhao, Marco Fiorentino, T. Vaerenbergh, Zheng Zhang
+          </td>
+          <td>2024-07-15</td>
+          <td>ArXiv</td>
+          <td>0</td>
+          <td>11</td>
+        </tr>
+
         <tr id="We propose a very general framework for deriving rigorous bounds on the approximation error for physics-informed neural networks (PINNs) and operator learning architectures such as DeepONets and FNOs as well as for physics-informed operator learning. These bounds guarantee that PINNs and (physics-informed) DeepONets or FNOs will efficiently approximate the underlying solution or solution operator of generic partial differential equations (PDEs). Our framework utilizes existing neural network approximation results to obtain bounds on more involved learning architectures for PDEs. We illustrate the general framework by deriving the first rigorous bounds on the approximation error of physics-informed operator learning and by showing that PINNs (and physics-informed DeepONets and FNOs) mitigate the curse of dimensionality in approximating nonlinear parabolic PDEs.">
           <td id="tag"><i class="material-icons">visibility_off</i></td>
           <td><a href="https://www.semanticscholar.org/paper/a1d9a2ca8002ba984357c156b4a7339eda219e2f" target='_blank'>Generic bounds on the approximation error for physics-informed (and) operator learning</a></td>
@@ -608,18 +620,6 @@
           <td>ArXiv</td>
           <td>48</td>
           <td>10</td>
-        </tr>
-
-        <tr id="Closure problems are omnipresent when simulating multiscale systems, where some quantities and processes cannot be fully prescribed despite their effects on the simulation's accuracy. Recently, scientific machine learning approaches have been proposed as a way to tackle the closure problem, combining traditional (physics-based) modeling with data-driven (machine-learned) techniques, typically through enriching differential equations with neural networks. This paper reviews the different reduced model forms, distinguished by the degree to which they include known physics, and the different objectives of a priori and a posteriori learning. The importance of adhering to physical laws (such as symmetries and conservation laws) in choosing the reduced model form and choosing the learning method is discussed. The effect of spatial and temporal discretization and recent trends toward discretization-invariant models are reviewed. In addition, we make the connections between closure problems and several other research disciplines: inverse problems, Mori-Zwanzig theory, and multi-fidelity methods. In conclusion, much progress has been made with scientific machine learning approaches for solving closure problems, but many challenges remain. In particular, the generalizability and interpretability of learned models is a major issue that needs to be addressed further.">
-          <td id="tag"><i class="material-icons">visibility_off</i></td>
-          <td><a href="https://www.semanticscholar.org/paper/e5858daa78db0cd950891018505e0e63c41b90ee" target='_blank'>Scientific machine learning for closure models in multiscale problems: a review</a></td>
-          <td>
-            Benjamin Sanderse, P. Stinis, R. Maulik, Shady E. Ahmed
-          </td>
-          <td>2024-03-05</td>
-          <td>ArXiv</td>
-          <td>4</td>
-          <td>21</td>
         </tr>
 
   </tbody>
